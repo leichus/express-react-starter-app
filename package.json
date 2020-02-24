@@ -1,0 +1,16 @@
+{
+  "name": "starter-app",
+  "version": "0.0.1",
+  "author": "dleichus",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "build-client": "cd client && yarn build"
+  },
+  "dependencies": {
+    "express": "~4.16.1"
+  },
+  "engines": {
+    "node": "13.6.0"
+  }
+}
